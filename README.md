@@ -1,4 +1,4 @@
-# 🎨 [Portfólio do Marcos](https://b5-portfolio-template.netlify.app/) —Template de portfólio  Bootstrap 5
+# 🎨 [Portfólio do Marcos]([https://b5-portfolio-template.netlify.app/](https://m32pinto.github.io/portfoliodomarcos/)) —Template de portfólio  Bootstrap 5
 
 > *Um modelo de portfólio responsivo, fácil de usar e totalmente personalizável. Ideal para designers, desenvolvedores e criadores de conteúdo.*
 
@@ -21,10 +21,10 @@ Perfeito para quem quer mostrar seu trabalho, confesso que é muito eficiente pa
 
 ## 🖼️ Uma prévia
 
-### Veja uma prévia do início, veja mais🔗[clicando aqui](https://b5-portfolio-template.netlify.app/) 
+### Veja uma prévia do início, veja mais🔗[clicando aqui]([https://b5-portfolio-template.netlify.app/](https://m32pinto.github.io/portfoliodomarcos/)) 
 
 <div align="center">
-  <img src="/home/marcos/Documentos/Projetos/projetos_e_estudos_em_ti/portfolio_do_marcos/bootstrap-portfolio-template/image/imagem_para_portfolio(qwenai).png" width="500" height="300" />
+  <img src="image/imagem_para_portfolio(qwenai).png" width="500" height="300" />
 </div>
 
 
@@ -54,7 +54,7 @@ Perfeito para quem quer mostrar seu trabalho, confesso que é muito eficiente pa
 
 ## 📈 Live Demo
 
-🔗 [Visualize o projeto em ação](https://b5-portfolio-template.netlify.app/)
+🔗 [Visualize o projeto em ação]([https://b5-portfolio-template.netlify.app/](https://m32pinto.github.io/portfoliodomarcos/))
 
 ---
 
