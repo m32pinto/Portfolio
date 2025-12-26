@@ -265,19 +265,19 @@
             <script>
 
               document.addEventListener('click', function(e) {
-  if (e.target.closest('.modal')) {
-    const modal = e.target.closest('.modal');
-    if (modal) {
-      const iframes = modal.querySelectorAll('iframe');
-      iframes.forEach(function(iframe) {
-        if (iframe.src) {
-          const newSrc = iframe.src + '&autoplay=0';
-          iframe.src = newSrc;
-        }
-      });
-    }
-  }
-});
+                  if (e.target.closest('.modal')) {
+                    const modal = e.target.closest('.modal');
+                    if (modal) {
+                      const iframes = modal.querySelectorAll('iframe');
+                      iframes.forEach(function(iframe) {
+                        if (iframe.src) {
+                          const newSrc = iframe.src + '&autoplay=0';
+                          iframe.src = newSrc;
+                        }
+                      });
+                    }
+                  }
+                });
 
             </script>
             
