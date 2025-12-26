@@ -108,3 +108,104 @@ Se você gostou, me segue nas redes sociais — eu adoro receber feedbacks e aju
 > 🎯 *Este template é uma versão do trabalho de @ecemgo — e eu gostaria de agradecer o brilhante trabalho. 😊*
 
 ---
+
+## Explicações das alterações feitas 
+
+
+
+<details open>
+<summary>Instrução que para a reprodução do iframe no modal 26/12//2025.</summary>
+
+**Nessa alteração eu planejava fazer com que os vídeos parassem de ser reproduzidos se for clicado fora ou no botão close do modal.**
+
+<div align="center">
+  <img src="image/fluxograma_para_parada_de_videos_no_modal.png" width="900" height="400" />
+  </div>
+
+  ```json
+  <script>
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('.modal')) {
+      const modal = e.target.closest('.modal');
+      if (modal) {
+        const iframes = modal.querySelectorAll('iframe');
+        iframes.forEach(function(iframe) {
+          if (iframe.src) {
+            const newSrc = iframe.src + '&autoplay=0';
+            iframe.src = newSrc;
+          }
+        });
+      }
+    }
+});
+```
+**Linha 1: `document.addEventListener('click', function(e) {`**  
+O código começa ouvindo quando alguém clica em qualquer parte da página.  
+Quando alguém clica, o código vai executar o que está dentro do `function(e) {` — ou seja, o que vem depois.
+
+---
+
+**Linha 2: `if (e.target.closest('.modal')) {`**  
+O código pergunta:  
+“O que foi clicado (e.target) está dentro de algum elemento que tenha a classe `.modal`?”  
+Se sim, o código continua.
+
+---
+
+**Linha 3: `const modal = e.target.closest('.modal');`**  
+Se a resposta foi sim, o código pega o elemento `.modal` mais próximo que contém o clique.
+
+---
+
+**Linha 4: `if (modal) {`**  
+Se o elemento `.modal` foi encontrado (ou seja, se `modal` não é `null` ou `undefined`), o código continua.
+
+---
+
+**Linha 5: `const iframes = modal.querySelectorAll('iframe');`**  
+O código busca todos os elementos `<iframe>` dentro do modal encontrado.
+
+---
+
+**Linha 6: `iframes.forEach(function(iframe) {`**  
+O código percorre todos os iframes encontrados, um por um.
+
+---
+
+**Linha 7: `if (iframe.src) {`**  
+O código pergunta:  
+“O iframe tem uma URL (src) definida?”  
+Se sim, o código continua.
+
+---
+
+**Linha 8: `const newSrc = iframe.src + '&autoplay=0';`**  
+O código cria uma nova URL, adicionando `&autoplay=0` ao final da URL atual.
+
+---
+
+**Linha 9: `iframe.src = newSrc;`**  
+O código atualiza a URL do iframe, para que o vídeo não comece a tocar automaticamente.
+
+---
+
+**Linha 10: `}`**  
+Fim do `forEach` — o código volta para o próximo iframe.
+
+---
+
+**Linha 11: `}`**  
+Fim do `if (modal)` — o código volta para o próximo bloco.
+
+---
+
+**Linha 12: `}`**  
+Fim do `if (e.target.closest('.modal'))` — o código volta para o próximo bloco.
+
+---
+
+**Linha 13: `}`**  
+Fim do `addEventListener` — o código termina.
+
+
+</details>
