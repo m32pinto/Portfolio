@@ -27,8 +27,6 @@ Perfeito para quem quer mostrar seu trabalho, confesso que é muito eficiente pa
   <img src="image/imagem_para_portfolio(qwenai).png" width="500" height="300" />
 </div>
 
-
-
 ## 🛠️ Tecnologias Utilizadas
 
 - ✅ **HTML5** — Estrutura semântica e acessível  
@@ -116,10 +114,14 @@ Se você gostou, me segue nas redes sociais — eu adoro receber feedbacks e aju
 <details open>
 <summary> ⬅️ Clique aqui para recolher as informações - Instrução que para a reprodução do iframe no modal 26/12/2025.</summary>
 
-**Nessa alteração eu planejava fazer com que os vídeos parassem de ser reproduzidos se for clicado fora ou no botão close do modal, linha 272 - 289 no index.**
+Nessa alteração eu planejava fazer com que os vídeos parassem de ser reproduzidos se for clicado fora ou no botão close do modal, linha 272 - 289 no index. **Sigam os fluxogramas de passos da implementação.**
 
 <div align="center">
   <img src="image/fluxograma_para_parada_de_videos_no_modal.png" width="900" height="400" />
+  </div>
+
+  <div align="center">
+  <img src="image/fluxograma_detalhado.png" width="1200" height="500" />
   </div>
 
   ```json
