@@ -44,6 +44,8 @@
                 <a class="nav-link" href="#travel">Iniciativas</a>
               </li>
 
+              
+
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contate-me</a>
               </li>
@@ -144,7 +146,7 @@
                             <img src="image/crt02_escritorio.jpg" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title text-center py-2">Conselho Regional dos Técnicos da 2º Região</h5>
-                                <p>Atualmente trabalho no conselho como auxiliar administrativo voltado para o atendimento aos profissionais explicando e tirando dúvidas sobre o funcionamento dos procedimentos internos como: solicitação, interrupção e regularização de registro, para os mesmo trabalharem nos conformes do conselho de classe </p>
+                                <p>Atualmente trabalho no conselho como auxiliar administrativo voltado para o atendimento aos profissionais explicando e tirando dúvidas sobre o funcionamento dos procedimentos internos como: solicitação, interrupção e regularização de registro, para os mesmo trabalharem nos conformes do coselho de classe </p>
                                 <a href="blog-page crt_02.html" class="btn btn-light d-flex justify-content-center">Clique para ler a rotina do trabalho......</a>
                             </div>
 
@@ -153,6 +155,8 @@
                     </div>
 
                 </div>
+
+
 
             </div>
 
@@ -184,6 +188,9 @@
                     <div class="col-12 col-sm-6 col-lg-3 mb-4">
                         <img class="w-100 img-thumbnail" src="image/miniatura_de_video_de_utilizacao_do_ml_studio.png" data-target="#carouselExample" data-slide-to="5">
                     </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                        <img class="w-100 img-thumbnail" src="image/miniatura_pomodoro_sono_timer.png" data-target="#carouselExample" data-slide-to="6" data-link="https://m32pinto.github.io/projeto_pomodoro_sono/">
+                    </div>
                   </div>
                   
                   <!-- Modal -->
@@ -201,9 +208,8 @@
                           <div id="carouselExample" class="carousel slide" data-bs-ride="false" data-bs-interval="false">
 
                            <!--
-
                             Barras de marcação de ordem do conteúdo do carrossel
-                              
+                            
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -237,10 +243,10 @@
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/9c5wjW3H8oA?si=SO3Xw3w7MpJELhDx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="d-block w-100" alt="..."></iframe>
                               </div>
                               <div class="carousel-item" data-bs-interval="false">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/K6ETroce1rY?si=EnN1JJDK8qeCDoqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="d-block w-100" alt="..."></iframe>
+                                <https://m32pinto.github.io/projeto_pomodoro_sono/">
                               </div>
-                            </div>     
-                              
+                            </div>    
+
                           <!-- 
                             Botões do carrossel
                             
@@ -255,42 +261,42 @@
 
                             -->
                           </div>
-                            
                         </div>
-                          
                       </div>
-                        
                     </div>
-                      
                   </div>
-                
             </div>
 
-
-            <!-- Instrução para fechamento do modal após clicar fora da caixa ou no X, esse instrução será explicada no README.MD -->
-            
             <script>
-
               document.addEventListener('click', function(e) {
-                  if (e.target.closest('.modal')) {
-                    const modal = e.target.closest('.modal');
-                    if (modal) {
-                      const iframes = modal.querySelectorAll('iframe');
-                      iframes.forEach(function(iframe) {
-                        if (iframe.src) {
-                          const newSrc = iframe.src + '&autoplay=0';
-                          iframe.src = newSrc;
-                        }
-                      });
-                    }
+                if (e.target.closest('.modal')) {
+                  const modal = e.target.closest('.modal');
+                  if (modal) {
+                    const iframes = modal.querySelectorAll('iframe');
+                    iframes.forEach(function(iframe) {
+                      if (iframe.src) {
+                        const newSrc = iframe.src + '&autoplay=0';
+                        iframe.src = newSrc;
+                      }
+                    });
                   }
-                });
+                }
+              });
+            </script>
+
+            <script>
+              document.addEventListener('click', function(e) {
+                if (e.target.closest('img')) {
+                    const img = e.target.closest('img');
+                    const link = img.getAttribute('data-link');
+                  if (link) {
+                      window.location.href = link;
+                  }
+              }
+          });
 
             </script>
             
-        </section>
-
-        
         </section>
 
         <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="bg-dark py-5" id="contact">
