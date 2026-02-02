@@ -211,3 +211,8 @@ Fim do `addEventListener` — o código termina.
 
 
 </details>
+
+🔗 [Projetos:](https://m32pinto.github.io/portfoliodomarcos/#travel)
+🕘 [Pomodoro sono timer](https://m32pinto.github.io/portfoliodomarcos/#travel)
+*(Clique aqui para explorar o portfólio completo com todos os trabalhos desenvolvidos.)*
+
