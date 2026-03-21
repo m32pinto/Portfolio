@@ -1,4 +1,4 @@
-# 🎨 [Portfólio do Marcos](https://m32pinto.github.io/portfoliodomarcos/) —Template de portfólio  Bootstrap 5 
+# 🎨 [Portfólio do Marcos](https://portfoliodomarcos.com.br/) —Template de portfólio  Bootstrap 5 
 
 > *Um modelo de portfólio responsivo, fácil de usar e totalmente personalizável. Ideal para designers, desenvolvedores e criadores de conteúdo.*
 
@@ -21,7 +21,7 @@ Perfeito para quem quer mostrar seu trabalho, confesso que é muito eficiente pa
 
 ## 🖼️ Uma prévia
 
-### Veja uma prévia do início,  [veja mais🔗](https://m32pinto.github.io/portfoliodomarcos/)  
+### Veja uma prévia do início,  [veja mais🔗](https://portfoliodomarcos.com.br/)  
 
 <div align="center">
   <img src="image/imagem_para_portfolio(qwenai).png" width="500" height="300" />
@@ -52,7 +52,7 @@ Perfeito para quem quer mostrar seu trabalho, confesso que é muito eficiente pa
 
 ## 📈 Live Demo
 
-🔗 [Visualize o projeto em ação]([https://b5-portfolio-template.netlify.app/](https://m32pinto.github.io/portfoliodomarcos/))
+🔗 [Visualize o projeto em ação]([https://b5-portfolio-template.netlify.app/](https://portfoliodomarcos.com.br/))
 
 ---
 
@@ -97,7 +97,7 @@ Se você gostou, me segue nas redes sociais — eu adoro receber feedbacks e aju
 - 💻[Linkedin](www.linkedin.com/in/marcos-antonio-78a930197)
 
 
-- 🖥️ [Github](https://github.com/m32pinto)
+- 🖥️ [Github](https://portfoliodomarcos.com.br/)
 
 
 ---
@@ -212,7 +212,7 @@ Fim do `addEventListener` — o código termina.
 
 </details>
 
-🔗 [Projetos:](https://m32pinto.github.io/portfoliodomarcos/#travel)
+🔗 [Projetos:](https://portfoliodomarcos.com.br/#travel)
 🕘 [Pomodoro sono timer](https://m32pinto.github.io/portfoliodomarcos/#travel)
 *(Clique aqui para explorar o portfólio completo com todos os trabalhos desenvolvidos.)*
 
