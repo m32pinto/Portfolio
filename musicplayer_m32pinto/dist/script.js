@@ -46,7 +46,7 @@ $(function () {
     "m32pinto - Sem mas",
     "m32pinto - Xapatics"
   ];
-  const albumArtworks = ["_1", "_2", "_3", "_4", "_5"];
+  const albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10", "_11", "_12", "_13", "_14"];
   const trackUrl = [
     "https://res.cloudinary.com/driarrij9/video/upload/v1774354098/musica_do_cabelo_zj3ckm.mp3",
     "https://res.cloudinary.com/driarrij9/video/upload/v1774359204/Meu_ego_atmos_kia8pv.mp3",
@@ -61,7 +61,7 @@ $(function () {
     "https://res.cloudinary.com/driarrij9/video/upload/v1774359192/Sem_nome_pney0t.wav",
     "https://res.cloudinary.com/driarrij9/video/upload/v1774359192/Presentes_pfdgg8.mp3",
     "https://res.cloudinary.com/driarrij9/video/upload/v1774359192/Sem_mas_gt1vdd.mp3",
-    "https://res.cloudinary.com/driarrij9/video/upload/v1774359190/Xapatics_uahu4r.mp3"
+    "https://res.cloudinary.com/driarrij9/video/upload/v1774359190/Xapatics_uahu4r.mp3",
   ];
 
   let bgArtworkUrl,
