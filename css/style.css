@@ -291,10 +291,14 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 30px 0; /* Espaço acima e abaixo. Ajuste ou remova se não quiser */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  box-sizing: border-box;
 }
 
 .github-icon {
+  display: block; /* Garante que o link ocupe apenas o tamanho do ícone */
   width: 48px;
   height: 48px;
   color: #333;
