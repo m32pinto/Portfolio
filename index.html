@@ -63,9 +63,130 @@
                 <img src="image/imagem_do_marcos.jpeg" class="img-fluid col-lg-2 col-sm-6 col-xs-6 mb-4 image-custom"> 
                 <p class="display-2 text-secondary mb-3">Olá, sou Marcos</p>
                 <p class="text-secondary fs-5 mb-6">Aqui você encontrará mais sobre: meu perfil,  minhas iniciativas, compartilhamento de ideias entre outros.</p>
+                
                 <a class="btn btn-success btn-lg active rounded-pill mb-3" href="#about">Perfil</a>
                 <a class="btn btn-light btn-lg rounded-pill mb-3" href="#contact">Contate-me</a>
-                <a class="btn btn-success btn-lg active rounded-pill mb-3" href="/cv/marcos_cv.pdf">Download CV</a>
+                <div class="cv-dropdown-wrapper">
+                <div class="cv-dropdown-wrapper">
+                <div class="btn-group rounded-pill" role="group">
+                <!-- Botão principal de download -->
+                <a href="/cv/marcos_cv.pdf" class="btn btn-success2 rounded-start-pill">Download do CV</a>
+                
+                <!-- Seta (agora parte do mesmo grupo e da mesma cor) -->
+                <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split rounded-end-pill" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                
+                <!-- Menu suspenso -->
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">versão usada até 15/abril/2026</a></li>
+                </ul>
+            </div>
+
+              <style>
+              .cv-dropdown-wrapper {
+                position: relative;
+                display: inline-flex;
+                align-items: center;
+                border: 1px solid white;
+                border-radius: 40px;
+                overflow: visible; /* Garante que o dropdown não seja cortado */
+                font-family: "Nunito", sans-serif;
+              }
+              .cv-btn-main, .cv-btn-arrow {
+                border: none;
+                padding: 0.7rem 1rem; /* Mesmo padding dos botões Padrão */
+                cursor: pointer;
+                font-size: 0.95rem;   /* Mesma altura de letra */
+                font-weight: 500;
+                background-color: rgb(23, 109, 89);
+                color: #fff;
+                text-decoration: none;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                white-space: nowrap;
+                transition: background-color 0.2s ease;
+              }
+              .cv-btn-main {
+                border-radius: 20px 0 0 20px;
+                border-right: none; /* Remove qualquer linha divisória */
+              }
+              .cv-btn-arrow {
+                border-radius: 0 20px 20px 0;
+                padding: 0.5rem 0.75rem;
+              }
+              .cv-btn-main:hover, .cv-btn-arrow:hover {
+                background-color: rgb(33, 160, 131); /* Hover unificado */
+              }
+              .cv-arrow { font-size: 0.7rem; transition: transform 0.2s ease; }
+              .cv-dropdown-wrapper.active .cv-arrow { transform: rotate(180deg); }
+
+              .cv-dropdown-menu {
+                position: absolute;
+                top: calc(100% + 8px);
+                left: 0;
+                width: 100%;
+                background: #fff;
+                border: 1px solid rgba(0,0,0,0.12);
+                border-radius: 10px;
+                box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: none;
+                z-index: 100;
+                text-align: left;
+                overflow: hidden;
+              }
+              .cv-dropdown-menu.show { display: block; }
+              .cv-dropdown-title {
+                font-size: 0.72rem;
+                font-weight: 600;
+                color: #6c757d;
+                padding: 8px 12px 6px;
+                border-bottom: 1px solid #eee;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+              }
+              .cv-dropdown-menu li a {
+                display: block;
+                padding: 8px 12px;
+                color: #212529;
+                text-decoration: none;
+                font-size: 0.84rem;
+                transition: background 0.15s ease, color 0.15s ease;
+              }
+              .cv-dropdown-menu li a:hover {
+                background-color: #f8f9fa;
+                color: rgb(23, 109, 89);
+              }
+              </style>
+
+              <script>
+              document.addEventListener('DOMContentLoaded', () => {
+                const wrapper = document.querySelector('.cv-dropdown-wrapper');
+                if (!wrapper) return;
+
+                const arrowBtn = wrapper.querySelector('.cv-btn-arrow');
+                const menu = wrapper.querySelector('.cv-dropdown-menu');
+
+                arrowBtn.addEventListener('click', (e) => {
+                  e.stopPropagation();
+                  const isOpen = menu.classList.toggle('show');
+                  wrapper.classList.toggle('active');
+                  arrowBtn.setAttribute('aria-expanded', isOpen);
+                });
+
+                document.addEventListener('click', (e) => {
+                  if (!wrapper.contains(e.target)) {
+                    menu.classList.remove('show');
+                    wrapper.classList.remove('active');
+                    arrowBtn.setAttribute('aria-expanded', 'false');
+                  }
+                });
+              });
+              </script>
             </div>
           </div>
         </section>
