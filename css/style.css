@@ -286,15 +286,22 @@ body {
   background: white;
 }
 
+.github-center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0; /* Espaço acima e abaixo. Ajuste ou remova se não quiser */
+}
+
 .github-icon {
-  display: inline-block;
-  width: 32px; /* Ajuste o tamanho se quiser */
-  height: 32px;
-  color: #333; /* Cor padrão do ícone */
+  width: 48px;
+  height: 48px;
+  color: #333;
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .github-icon:hover {
-  color: #0969da; /* Azul oficial do GitHub */
-  transform: scale(1.15);
+  color: #0969da;
+  transform: scale(1.2);
 }
