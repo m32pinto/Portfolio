@@ -285,3 +285,16 @@ body {
 #exampleModal.custom .carousel-indicators li.active {
   background: white;
 }
+
+.github-icon {
+  display: inline-block;
+  width: 32px; /* Ajuste o tamanho se quiser */
+  height: 32px;
+  color: #333; /* Cor padrão do ícone */
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.github-icon:hover {
+  color: #0969da; /* Azul oficial do GitHub */
+  transform: scale(1.15);
+}
