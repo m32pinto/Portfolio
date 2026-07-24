@@ -1,0 +1,95 @@
+Política de Privacidade
+Última atualização: 24 de julho de 2026
+
+A m32pinto ("nós", "nosso" ou "empresa") está comprometida com a proteção da sua privacidade. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos os dados pessoais dos usuários que interagem com nossos chatbots via WhatsApp.
+
+1. Quais informações coletamos
+Coletamos as seguintes informações quando você interage com nossos chatbots:
+
+Número de telefone: Para identificar o usuário no WhatsApp e manter a conversa.
+
+Nome do usuário: Quando fornecido voluntariamente durante a conversa.
+
+E-mail: Quando fornecido voluntariamente durante a conversa.
+
+Mensagens enviadas: Todo o conteúdo das mensagens trocadas com o chatbot.
+
+Dados de interação: Data, hora e duração das interações.
+
+Importante: Não coletamos dados sensíveis, como CPF, RG, informações financeiras ou de saúde, a menos que sejam explicitamente fornecidos pelo usuário para uma finalidade específica.
+
+2. Como usamos suas informações
+Utilizamos os dados coletados exclusivamente para:
+
+Fornecer o serviço de chatbot: Processar suas perguntas, fornecer respostas automatizadas e encaminhar para atendimento humano quando necessário.
+
+Melhorar nossos serviços: Analisar interações para otimizar o fluxo de atendimento.
+
+Personalizar a experiência: Reconhecer o usuário em interações futuras.
+
+Cumprir obrigações legais: Quando exigido por lei.
+
+Não utilizamos seus dados para marketing, publicidade ou qualquer finalidade não relacionada ao atendimento via chatbot.
+
+3. Como armazenamos e protegemos seus dados
+Seus dados são armazenados de forma segura em:
+
+Google Sheets: Planilhas protegidas por autenticação e acesso restrito.
+
+Typebot: Plataforma de criação de chatbots que armazena temporariamente as conversas.
+
+Vercel: Infraestrutura serverless onde o código do webhook é executado.
+
+Medidas de segurança:
+
+Todos os dados são transmitidos com criptografia SSL/TLS.
+
+O acesso às planilhas é restrito apenas à equipe autorizada da m32pinto.
+
+Não compartilhamos seus dados com terceiros, exceto quando necessário para operar o serviço (ex: Typebot, Google, Vercel) e sempre em conformidade com esta política.
+
+4. Base legal para o tratamento de dados (LGPD)
+Tratamos seus dados pessoais com base no:
+
+Consentimento: Ao interagir com nosso chatbot, você consente com a coleta e uso dos dados conforme descrito nesta política.
+
+Execução de contrato: Para prestar o serviço de atendimento solicitado.
+
+Interesse legítimo: Para melhorar continuamente nossos serviços e a experiência do usuário.
+
+5. Seus direitos
+De acordo com a Lei Geral de Proteção de Dados (LGPD), você tem o direito de:
+
+Confirmar se tratamos seus dados pessoais.
+
+Acessar os dados que temos sobre você.
+
+Corrigir dados incompletos, inexatos ou desatualizados.
+
+Solicitar a exclusão dos seus dados.
+
+Revogar o consentimento a qualquer momento.
+
+6. Como solicitar a exclusão dos seus dados
+Para exercer seus direitos, entre em contato conosco através do e-mail:
+
+📧 m32pinto@gmail.com
+
+Responderemos à sua solicitação em até 15 dias úteis.
+
+7. Retenção de dados
+Mantemos seus dados apenas pelo tempo necessário para fornecer o serviço e cumprir obrigações legais. Após esse período, os dados são anonimizados ou excluídos de forma segura.
+
+8. Cookies e tecnologias similares
+Nossos chatbots não utilizam cookies ou tecnologias de rastreamento. As interações são processadas exclusivamente via WhatsApp e API do Typebot.
+
+9. Links para sites de terceiros
+Nossos chatbots podem conter links para sites externos. Esta política não se aplica a esses sites. Recomendamos que você leia as políticas de privacidade deles.
+
+10. Alterações nesta política
+Podemos atualizar esta política periodicamente. A versão mais recente estará sempre disponível em nosso site. Recomendamos revisá-la regularmente.
+
+11. Contato
+Se tiver dúvidas sobre esta política ou sobre como tratamos seus dados, entre em contato:
+
+📧  m32pinto@gmail.com
