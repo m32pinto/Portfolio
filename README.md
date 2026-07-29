@@ -1,218 +1,76 @@
-# 🎨 [Portfólio do Marcos](https://portfoliodomarcos.com.br/) —Template de portfólio  Bootstrap 5 
+# 🔱🎩 Portfólio Profissional - [m32pinto](portfoliodomarcos.com.br)
 
-> *Um modelo de portfólio responsivo, fácil de usar e totalmente personalizável. Ideal para designers, desenvolvedores e criadores de conteúdo.*
-
----
-
-## 📌 Descrição
-
-Este é um **template de portfólio** construído com **Bootstrap 5**, **HTML5 semântico** e **JavaScript leve**, com estrutura modular e totalmente responsiva.
-
-O template inclui:
-
-✅ Página principal com apresentação  
-✅ Galeria de imagens  
-✅ Mini blog para iniciativas, participações ou reflexões  
-✅ Formulário de contato integrado 
-
-Perfeito para quem quer mostrar seu trabalho, confesso que é muito eficiente para mostrar projetos ou conteúdo pessoal de forma profissional — sem precisar de conhecimento avançado de codificação.
+Bem-vindo ao repositório oficial do meu portfólio profissional! Este projeto foi desenvolvido com foco em alta performance, responsividade e na entrega de soluções inteligentes utilizando o ecossistema moderno de desenvolvimento.
 
 ---
 
-## 🖼️ Uma prévia
-
-### Veja uma prévia do início,  [veja mais🔗](https://portfoliodomarcos.com.br/)  
-
-<div align="center">
-  <img src="image/imagem_para_portfolio(qwenai).png" width="500" height="300" />
-</div>
-
-## 🛠️ Tecnologias Utilizadas
-
-- ✅ **HTML5** — Estrutura semântica e acessível  
-- ✅ **Bootstrap 5** — Responsividade, componentes e estilização rápida  
-- ✅ **JavaScript** — Funcionalidades interativas (formulários, carrosséis)  
-- ✅ **CSS Flexbox & Grid** — Layouts modernos e adaptáveis  
-- ✅ **Qwenai qwenai-v1-4b** — Agente de IA, copiloto 
-- ✅ **Emailjs** — Para envio de emails, recebimento e confirmação de contato automático. 
-
+## 🏢 Sobre a Empresa
+Este projeto é mantido por **m32pinto** (empresa com CNPJ ativo), focada no desenvolvimento de automações, chatbots inteligentes, formulários personalizados de alta performance e soluções web.
 
 ---
 
-## 📦 Como Usar
-
-1. Baixe o template (ou copie o código HTML) clicando aqui.
-2. Personalize as imagens, conteúdo e estilos.
-3. Adicione seu próprio conteúdo no blog ou no formulário.
-4. Depois de personalizar, publique em qualquer site ou plataforma.
-
-> *Este template é 100% livre de uso — você pode adaptá-lo para seu site, blog ou portfólio pessoal.*
+## 📜 Histórico do Portfólio
+* **Versão Anterior:** O portfólio original foi construído utilizando tecnologias tradicionais de front-end (**HTML, CSS e JavaScript puro**).
+* **Migração Atual:** Com a evolução dos objetivos profissionais e o foco intensivo em **Flutter Web** e desenvolvimento de formulários dinâmicos, o projeto foi totalmente reescrito em **Flutter**. Essa mudança permitiu unificar a linguagem de programação (Dart) em toda a lógica, aproveitando a robustez e a integração nativa com o ecossistema do Google.
 
 ---
 
-## 📈 Live Demo
-
-🔗 [Visualize o projeto em ação]([https://b5-portfolio-template.netlify.app/](https://portfoliodomarcos.com.br/))
-
----
-
-## 📩 Autor
-
-> *Siga o projeto original na sua rede.*
-
-- 🖥️ GitHub — [@ecemgo](https://github.com/ecemgo)  
-- 🎨 CodePen — [@ecemgo](https://codepen.io/ecemgo)  
-- 🎥 YouTube — [@ecemgokdogan](https://www.youtube.com/channel/UCktkPv17cw27PaFGcnZa_aQ)  
-- 🐦 Twitter — [@ecemgo](https://twitter.com/ecemgo)
+## 🛠️ Ferramentas Utilizadas
+O projeto faz uso de um conjunto tecnológico moderno e eficiente:
+* **Flutter & Dart:** Framework principal para o desenvolvimento da interface (UI/UX) responsiva voltada para a Web.
+* **Firebase Hosting:** Plataforma de hospedagem serverless rápida e segura fornecida pelo Google.
+* **Web3Forms API:** Serviço de envio de e-mails via API REST integrado ao formulário de contato do front-end.
+* **Git & GitHub / GitHub Pages:** Controle de versão do código-fonte e histórico de evoluções.
+* **Linux:** Sistema operacional utilizado como ambiente de desenvolvimento principal.
+* **Gemini (Google):** Assistente de inteligência artificial colaborativa utilizada para suporte de código, arquitetura e refatoração.
 
 ---
 
-## 💡 Dicas
+## 💻 Comandos Essenciais de Gerenciamento
+Aqui estão os comandos fundamentais utilizados no terminal para gerenciar, compilar e enviar atualizações do projeto:
 
-- Adapte as imagens e conteúdo conforme sua necessidade.
-- Use o formulário para entrar em contato — funcional e fácil de configurar, caso queira contatar basta preencher.
+1. **Limpar o cache do projeto (essencial antes de builds limpos):**
+   ```bash
+   flutter clean
+2. **Baixar e atualizar as dependências (lendo o pubspec.yaml):**
+   ```bash
+   flutter pub get
+3. **Compilar o projeto otimizado para produção Web (com injeção segura de chaves):**
+   ```bash
+   flutter build web --release --dart-define=WEB3FORMS_ACCESS_KEY=sua_chave_aqui
+4. **Fazer o deploy manual para o Firebase Hosting:**
+   ```bash
+   firebase deploy --only hosting
 
+🔄 Como Atualizar o Projeto
+Caso você queira clonar este repositório e realizar atualizações no código-fonte, siga este fluxo seguro:
 
----
+1. Abra o projeto no seu editor (ex: VS Code).
+2. Faça as alterações desejadas nos arquivos dentro da pasta lib/.
+3. No terminal, execute o processo de limpeza e compilação:
+   ```bash
+   flutter clean
+   flutter pub get
+   flutter build web --release --dart-define=WEB3FORMS_ACCESS_KEY=sua_chave_aqui
+4. Envie a nova versão compilada para a nuvem:
+   ```bash
+   firebase deploy --only hosting
 
-## 🧩 O que eu gosto de fazer com esse template?
+✉️ Webform para Envio de E-mails
+O formulário de contato integrado ao portfólio utiliza a API do Web3Forms.
 
-- Mostrar projetos criativos  
-- Compartilhar ideias e experiências  
-- Receber feedbacks e sugestões  
-- Tornar o portfólio mais interativo e envolvente
+Arquitetura: O Flutter realiza uma requisição HTTP POST assíncrona enviando um payload em formato JSON com os dados do remetente (nome, e-mail, assunto e mensagem).
 
----
+Segurança: Por se tratar de uma aplicação Web (Frontend), as chaves sensíveis não são expostas em arquivos de texto estáticos no servidor. Elas são injetadas de forma segura no momento da compilação utilizando a flag --dart-define do Flutter, mantendo o código blindado e profissional.
 
-Se você gostou, me segue nas redes sociais — eu adoro receber feedbacks e ajudar com sugestões!📨
+📚 Informações Relevantes para Estudantes
+Se você é um estudante explorando este repositório para aprender mais sobre Flutter e o ecossistema Google, observe os seguintes pontos de destaque na arquitetura:
 
-- 🎥 [Youtube](https://www.youtube.com/@se_re_ny)
+1. **Single Page Application (SPA):** O Flutter Web compila o código Dart em otimizações de HTML/JavaScript/Wasm, rodando de forma fluida no navegador.
+2. **Clean Architecture & Separação de Responsabilidades:** A lógica de envio de e-mails (EmailService) está totalmente isolada das telas (ContactScreen), permitindo testes unitários e manutenção simplificada.
+3. **Ecossistema Google:** A escolha por combinar Flutter com Firebase Hosting demonstra a sinergia perfeita entre ferramentas Google para deploy ágil, SSL automático e alta disponibilidade.
 
-- ❎ [X](https://twitter.com/ecemgo)
+🤖 Assistente Pessoal e Desenvolvimento
+Este portfólio foi construído através de uma parceria de programação colaborativa com o Gemini, atuando como um assistente de engenharia de software para estruturação de código limpo, boas práticas e resolução de desafios técnicos no Linux.
 
-- 📷 [Instagram](https://x.com/m32pinto) 
-
-- 📷 [Threads](https://www.threads.com/@marcosasp_psa)
-
-- 💻[Linkedin](www.linkedin.com/in/marcos-antonio-78a930197)
-
-
-- 🖥️ [Github](https://portfoliodomarcos.com.br/)
-
-
----
-
-
-> 🎯 *Este template é uma versão do trabalho de @ecemgo — e eu gostaria de agradecer o brilhante trabalho. 😊*
-
----
-
-## 📝 Explicações das alterações feitas 
-
-
-
-<details open>
-<summary> ⬅️ Clique aqui para recolher as informações - Instrução que para a reprodução do iframe no modal 26/12/2025.</summary>
-
-Nessa alteração eu planejava fazer com que os vídeos parassem de ser reproduzidos se for clicado fora ou no botão close do modal, linha 272 - 289 no index. **Sigam os fluxogramas de passos da implementação.**
-
-<div align="center">
-  <img src="image/fluxograma_para_parada_de_videos_no_modal.png" width="900" height="400" />
-  </div>
-
-  <div align="center">
-  <img src="image/fluxograma_detalhado.png" width="1200" height="500" />
-  </div>
-
-  ```json
-  <script>
-  document.addEventListener('click', function(e) {
-    if (e.target.closest('.modal')) {
-      const modal = e.target.closest('.modal');
-      if (modal) {
-        const iframes = modal.querySelectorAll('iframe');
-        iframes.forEach(function(iframe) {
-          if (iframe.src) {
-            const newSrc = iframe.src + '&autoplay=0';
-            iframe.src = newSrc;
-          }
-        });
-      }
-    }
-});
-```
-**Linha 1: `document.addEventListener('click', function(e) {`**  
-O código começa ouvindo quando alguém clica em qualquer parte da página.  
-Quando alguém clica, o código vai executar o que está dentro do `function(e) {` — ou seja, o que vem depois.
-
----
-
-**Linha 2: `if (e.target.closest('.modal')) {`**  
-O código pergunta:  
-“O que foi clicado (e.target) está dentro de algum elemento que tenha a classe `.modal`?”  
-Se sim, o código continua.
-
----
-
-**Linha 3: `const modal = e.target.closest('.modal');`**  
-Se a resposta foi sim, o código pega o elemento `.modal` mais próximo que contém o clique.
-
----
-
-**Linha 4: `if (modal) {`**  
-Se o elemento `.modal` foi encontrado (ou seja, se `modal` não é `null` ou `undefined`), o código continua.
-
----
-
-**Linha 5: `const iframes = modal.querySelectorAll('iframe');`**  
-O código busca todos os elementos `<iframe>` dentro do modal encontrado.
-
----
-
-**Linha 6: `iframes.forEach(function(iframe) {`**  
-O código percorre todos os iframes encontrados, um por um.
-
----
-
-**Linha 7: `if (iframe.src) {`**  
-O código pergunta:  
-“O iframe tem uma URL (src) definida?”  
-Se sim, o código continua.
-
----
-
-**Linha 8: `const newSrc = iframe.src + '&autoplay=0';`**  
-O código cria uma nova URL, adicionando `&autoplay=0` ao final da URL atual.
-
----
-
-**Linha 9: `iframe.src = newSrc;`**  
-O código atualiza a URL do iframe, para que o vídeo não comece a tocar automaticamente.
-
----
-
-**Linha 10: `}`**  
-Fim do `forEach` — o código volta para o próximo iframe.
-
----
-
-**Linha 11: `}`**  
-Fim do `if (modal)` — o código volta para o próximo bloco.
-
----
-
-**Linha 12: `}`**  
-Fim do `if (e.target.closest('.modal'))` — o código volta para o próximo bloco.
-
----
-
-**Linha 13: `}`**  
-Fim do `addEventListener` — o código termina.
-
-
-</details>
-
-🔗 [Projetos:](https://portfoliodomarcos.com.br/#travel)
-🕘 [Pomodoro sono timer](https://m32pinto.github.io/portfoliodomarcos/#travel)
-*(Clique aqui para explorar o portfólio completo com todos os trabalhos desenvolvidos.)*
-
+Desenvolvido com dedicação por Marcos Antonio (m32pinto).
